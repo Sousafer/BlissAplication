@@ -14,7 +14,7 @@ export const Home = () => {
 	//const healthStore = store.health.filter(char => char.url == url);
 	//useEffect(() => actions.health(url), []);
 
-	fetch("https://private-bbbe9-blissrecruitmentapi.apiary-mock.com")
+	fetch("https://private-anon-6f63385faf-blissrecruitmentapi.apiary-mock.com/health")
 		.then(response => {
 			if (response.ok) {
 				console.log("Server is up and running. Response: ", response);
